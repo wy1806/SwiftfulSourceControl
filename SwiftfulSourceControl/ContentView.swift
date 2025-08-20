@@ -13,7 +13,7 @@
  Push = Send local commits to remote repo
  Pull = Fetch remote commits to local repo
  
-
+ 
  COMMIT MESSAGES
  
  NEW FEATURE:
@@ -42,22 +42,23 @@ struct ContentView: View {
             ScrollView {
                 VStack{
                     ForEach(0..<20) { _ in
-                           Image(systemName: "globe")
-                                .font(.largeTitle)
-                                .foregroundStyle(.tint)
-                            Text("Some New Title!!")
-            
-                            Button("Click me!") {
+                        Image(systemName: "globe")
+                            .font(.largeTitle)
+                            .foregroundStyle(.tint)
+                        Text("Some New Title!!")
+                        
+                        Button("Click me!") {
+                        }
                     }
+                    
+                    
                 }
-         
-                
             }
+            .padding()
         }
-        .padding()
     }
 }
-
-#Preview {
-    ContentView()
-}
+    
+    #Preview {
+        ContentView()
+    }
