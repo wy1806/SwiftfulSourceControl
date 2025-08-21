@@ -22,7 +22,7 @@
  CODEOWNERS
  GitIgnore
  ReadMe
- Releases, Tags, Versioning
+ Releases, Tags, Versioning  [Major-Version.Minor-Version.Patch-Version](build) [1.0.0] -> First Release to Public
  
  
  COMMIT MESSAGES
